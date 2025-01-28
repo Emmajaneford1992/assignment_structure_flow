@@ -2,8 +2,6 @@ import { Application, Graphics, Text } from 'pixi.js';
 import { shapesData } from './data.json';
 import "./style.css";
 
-
-
 const app = new Application();
 
 async function setup() {
@@ -16,8 +14,6 @@ async function setup() {
   app.renderer.resize(window.innerWidth, window.innerHeight);
   document.body.appendChild(app.canvas);
 }
-
-
 
 (async () => {
   await setup();
