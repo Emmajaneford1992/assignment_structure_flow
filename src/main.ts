@@ -11,8 +11,10 @@ async function setup() {
     resizeTo: window,
     
   });
+
   app.renderer.resize(window.innerWidth, window.innerHeight);
   document.body.appendChild(app.canvas);
+  console.log('test');
 }
 
 (async () => {
