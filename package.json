@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://emmajaneford1992.github.io/assignment_softgames/",
+  "homepage": "https://emmajaneford1992.github.io/assignment_structure_flow/",
   "main": "src/main.ts",
   "scripts": {
     "dev": "vite",
