@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://emmajaneford1992.github.io/assignment_softgames/",
+  "main": "src/main.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -13,6 +15,7 @@
     "vite": "^6.0.5"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "pixi.js": "^8.7.2"
   }
 }
